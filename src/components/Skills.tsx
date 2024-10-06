@@ -13,7 +13,7 @@ export default function SkillsCard() {
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-gray-800 p-4 rounded-md flex items-center justify-center">
               <Image
-                src="/images/javascript-programming-language-icon.png"
+                src="/images/icons/javascript-programming-language-icon.png"
                 alt=""
                 width={24}
                 height={24}
@@ -23,7 +23,7 @@ export default function SkillsCard() {
             </div>
             <div className="bg-gray-800 p-4 rounded-md flex items-center justify-center">
               <Image
-                src="/images/html-5.png"
+                src="/images/icons/html-5.png"
                 alt=""
                 width={24}
                 height={24}
@@ -33,7 +33,7 @@ export default function SkillsCard() {
             </div>
             <div className="bg-gray-800 p-4 rounded-md flex items-center justify-center">
               <Image
-                src="/images/css-3.png"
+                src="/images/icons/css-3.png"
                 alt=""
                 width={24}
                 height={24}
@@ -43,7 +43,7 @@ export default function SkillsCard() {
             </div>
             <div className="bg-gray-800 p-4 rounded-md flex items-center justify-center">
               <Image
-                src="/images/tailwind-css-icon.png"
+                src="/images/icons/tailwind-css-icon.png"
                 alt=""
                 width={24}
                 height={24}
@@ -53,7 +53,7 @@ export default function SkillsCard() {
             </div>
             <div className="bg-gray-800 p-4 rounded-md flex items-center justify-center">
               <Image
-                src="/images/react-js-icon.png"
+                src="/images/icons/react-js-icon.png"
                 alt=""
                 width={24}
                 height={24}
@@ -63,7 +63,7 @@ export default function SkillsCard() {
             </div>
             <div className="bg-gray-800 p-4 rounded-md flex items-center justify-center">
               <Image
-                src="/images/nextjs-icon.png"
+                src="/images/icons/nextjs-icon.png"
                 alt=""
                 width={24}
                 height={24}
@@ -73,7 +73,7 @@ export default function SkillsCard() {
             </div>
             <div className="bg-gray-800 p-4 rounded-md flex items-center justify-center">
               <Image
-                src="/images/alphabet-a-icon.png"
+                src="/images/icons/alphabet-a-icon.png"
                 alt=""
                 width={24}
                 height={24}
@@ -83,7 +83,7 @@ export default function SkillsCard() {
             </div>
             <div className="bg-gray-800 p-4 rounded-md flex items-center justify-center">
               <Image
-                src="/images/daisy-flower-icon.png"
+                src="/images/icons/daisy-flower-icon.png"
                 alt=""
                 width={24}
                 height={24}
@@ -99,7 +99,7 @@ export default function SkillsCard() {
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-gray-800 p-4 rounded-md flex items-center justify-center">
               <Image
-                src="/images/node-js.png"
+                src="/images/icons/node-js.png"
                 alt=""
                 width={24}
                 height={24}
@@ -110,7 +110,7 @@ export default function SkillsCard() {
             {/* <div className="bg-gray-800 p-4 rounded-md flex items-center justify-center">Express Js</div> */}
             <div className="bg-gray-800 p-4 rounded-md flex items-center justify-center">
               <Image
-                src="/images/python.png"
+                src="/images/icons/python.png"
                 alt=""
                 width={24}
                 height={24}
