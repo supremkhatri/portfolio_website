@@ -23,8 +23,8 @@ const data = [
           <h2 className="text-3xl font-bold">Thapathali Campus</h2>
         </div>
         <p className="text-neutral-800 dark:text-neutral-200 sm:text-lg text-sm font-normal mb-8 mx-6">
-          I'm currently studying Bachelors in Computer Engineering at Thapathali
-          Campus. The Bachelor's in Computer Engineering at Thapathali Campus
+          I&apos;m currently studying Bachelors in Computer Engineering at Thapathali
+          Campus. The Bachelor&apos;s in Computer Engineering at Thapathali Campus
           covers both hardware and software, with a focus on programming,
           electronics, and networking, along with industry-relevant projects and
           seminars. This program helps me refine my technical skills and enhance
@@ -48,7 +48,7 @@ const data = [
         <p className="text-neutral-800 dark:text-neutral-200 sm:text-lg text-sm font-normal mb-8 mx-6">
           I completed my +2 in Science from Sainik Awasiya Mahavidyalaya, where
           I gained a solid academic foundation and developed essential life
-          skills in a nurturing environment. The college's culture encouraged
+          skills in a nurturing environment. The college&apos;s culture encouraged
           both personal and academic growth, preparing me for future challenges.
         </p>
       </div>
