@@ -17,7 +17,7 @@ export default function footer () {
 
         <footer className="footer footer-center bg-blue-950/[0.1]  text-base-content rounded p-10">
   <nav className="grid grid-flow-col text-5xl font-extrabold text-white">
-        Let's Connect
+        Let&apos;s Connect
   </nav>
   <div 
   id="contact-section"

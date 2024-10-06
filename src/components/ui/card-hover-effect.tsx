@@ -16,7 +16,7 @@ export const HoverEffect = ({
   }[];
   className?: string;
 }) => {
-  let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <div
@@ -55,7 +55,6 @@ export const HoverEffect = ({
           <Card>
             <CardTitle>{item.title}</CardTitle>
             <CardImage src={item.imageUrl} alt={item.title} />{" "}
-            {/* Added image */}
             <CardDescription>{item.description}</CardDescription>
           </Card>
         </Link>

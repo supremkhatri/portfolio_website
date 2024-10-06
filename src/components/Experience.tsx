@@ -66,7 +66,7 @@ export default function Experience() {
             selected for the role due to my prior experience as a content
             writer. As Social Media Manager, I was responsible for managing and
             posting content to promote events and played an active role in
-            creating reels and other materials during 'Yathartha' too.
+            creating reels and other materials during &apos;Yathartha&apos; too.
           </div>
           <hr className="border-t-2 border-white w-full" />
         </li>

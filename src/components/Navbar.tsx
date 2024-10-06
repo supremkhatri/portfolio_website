@@ -1,8 +1,8 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 
-export default function Navbar({ className }: { className?: string }) {
+export default function Navbar({}: { className?: string }) {
   return (
     <div className="mt-2 navbar fixed top-0 w-full z-50 rounded-full bg-gray-900">
       <div className="navbar-start">
