@@ -17,7 +17,7 @@ export default function BackgroundBeamsWithCollisionDemo() {
   return (
     <BackgroundBeamsWithCollision>
       <div className="flex flex-col text-center justify-center h-[37rem]">
-        <h2 className="pt-16 text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold text-black dark:text-white font-sans tracking-tight">
+        <h2 className="pt-16 text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold dark:text-white font-sans tracking-tight">
           Hello, I am Suprem Khatri.
         </h2>
 

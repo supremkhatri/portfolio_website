@@ -37,7 +37,7 @@ const links = [
     {
       title: "Facebook",
       icon: (
-        <IconBrandFacebook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandFacebook className="h-full w-full  dark:text-neutral-300" />
       ),
       href: "https://www.facebook.com/profile.php?id=100089340725365",
     },
@@ -45,21 +45,21 @@ const links = [
     {
       title: "Instagram",
       icon: (
-        <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandInstagram className="h-full w-full  dark:text-neutral-300" />
       ),
       href: "https://www.instagram.com/supremkhatri/?hl=en",
     },
     {
       title: "Linked-In",
       icon: (
-        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full  dark:text-neutral-300" />
       ),
       href: "https://www.linkedin.com/in/suprem-khatri-96ab3125a/",
     },
     {
       title: "Gmail",
       icon: (
-        <IconBrandGmail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandGmail className="h-full w-full  dark:text-neutral-300" />
       ),
       href: "mailto: suprem.khatri708@gmail.com",
     },
@@ -67,14 +67,14 @@ const links = [
     {
       title: "Twitter",
       icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandX className="h-full w-full  dark:text-neutral-300" />
       ),
       href: "https://x.com/SupremKhatri",
     },
     {
       title: "GitHub",
       icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandGithub className="h-full w-full  dark:text-neutral-300" />
       ),
       href: "https://github.com/supremkhatri",
     },
