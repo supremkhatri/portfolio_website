@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar({}: { className?: string }) {
   return (
-    <div className="mt-2 navbar fixed top-0 w-full z-50 rounded-full bg-gray-900">
+    <div className="mt-2 navbar fixed top-0 w-full z-50 rounded-full dark:bg-gray-900">
       <div className="navbar-start">
         <div className="avatar mx-4 ">
           <div className="w-11 rounded-full">
@@ -13,7 +13,7 @@ export default function Navbar({}: { className?: string }) {
         </div>
         <Link
           href={"/"}
-          className=" hover:text-gray-500 text-sm lg:text-xl font-bold tracking-wide"
+          className=" dark:hover:text-gray-500 text-sm lg:text-xl font-bold tracking-wide"
         >
           {" "}
           Suprem Khatri
@@ -46,7 +46,7 @@ export default function Navbar({}: { className?: string }) {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content font-sans mt-3 w-52 p-2 bg-gray-800 text-white rounded-lg shadow-lg z-50"
+            className="menu menu-sm dropdown-content font-sans mt-3 w-52 p-2 dark:bg-gray-800 text-white rounded-lg shadow-lg z-50"
           >
             <li>
               <Link href={"/"}>Home</Link>

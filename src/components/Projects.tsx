@@ -6,7 +6,7 @@ export default function CardHoverEffect() {
     
       <div
         id="project-section"
-        className="flex bg-blue-950/[0.2] flex-col items-center justify-center min-h-screen text-white"
+        className="flex dark:bg-blue-950/[0.2] flex-col items-center justify-center min-h-screen text-white"
       >
         <h2 className="text-7xl font-extrabold my-8">Projects</h2>
         <div className="flex flex-row items-center justify-center max-w-5xl mx-auto px-8">
