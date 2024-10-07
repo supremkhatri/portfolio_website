@@ -25,7 +25,7 @@ export default function Experience() {
           </div>
           <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2024-Present</time>
-            <div className="text-lg font-bold">
+            <div className="text-lg font-bold mb-6">
               Serving As Vice President In ECAST
             </div>
             At Thapathali Campus, each department has its own student-led club,
@@ -57,7 +57,7 @@ export default function Experience() {
           </div>
           <div className="timeline-end mb-10">
             <time className="font-mono italic">2023-2024</time>
-            <div className="text-lg font-bold">
+            <div className="text-lg font-bold mb-6">
               Served As Social Media Manager in ECAST
             </div>
             Before becoming the Vice President of ECAST, I had the privilege of
@@ -88,7 +88,7 @@ export default function Experience() {
           </div>
           <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">Mar 2022 - Nov 2023</time>
-            <div className="text-lg font-bold">Worked As Content Creator</div>
+            <div className="text-lg font-bold mb-6">Worked As Content Creator</div>
             After completing my +2, I had the opportunity to work remotely as a
             content creator for Neputer Tech Pvt Ltd, a Nepali company. In this
             role, I was responsible for writing content on assigned topics. This

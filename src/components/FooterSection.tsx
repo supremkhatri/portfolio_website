@@ -15,7 +15,7 @@ import {
 export default function footer () {
     return(
 
-        <footer className="footer footer-center dark:bg-gradient-to-b dark:from-gray-900 dark:to-gray-950 text-base-content rounded p-10">
+        <footer className="footer footer-center dark:bg-gradient-to-b dark:from-gray-900 dark:to-gray-950 text-base-content p-10">
   <nav className="grid grid-flow-col text-5xl font-extrabold text-white">
         Let&apos;s Connect
   </nav>
