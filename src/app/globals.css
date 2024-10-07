@@ -8,7 +8,10 @@
 }
 
 
-
+/* .custom-hr {
+  border: none !important;
+  border-color: white !important;  
+} */
 
 body {
   color: var(--foreground);

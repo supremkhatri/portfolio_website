@@ -37,10 +37,10 @@ export default function Experience() {
             leadership, network building, resource management, and teamwork,
             while also developing a wide range of technical competencies.
           </div>
-          <hr className="border-t-2 w-full" />
+          <hr className="bg-gray-800" />
         </li>
         <li className="mt-10">
-          <hr className="border-t-2 w-full" />
+          <hr className="bg-gray-800" />
           <div className="timeline-middle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -68,10 +68,10 @@ export default function Experience() {
             posting content to promote events and played an active role in
             creating reels and other materials during &apos;Yathartha&apos; too.
           </div>
-          <hr className="border-t-2 w-full" />
+          <hr className="bg-gray-800" />
         </li>
         <li className="mt-10">
-          <hr className="border-t-2  w-full" />
+          <hr className="bg-gray-800" />
           <div className="timeline-middle text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -88,14 +88,16 @@ export default function Experience() {
           </div>
           <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">Mar 2022 - Nov 2023</time>
-            <div className="text-lg font-bold mb-6">Worked As Content Creator</div>
+            <div className="text-lg font-bold mb-6">
+              Worked As Content Creator
+            </div>
             After completing my +2, I had the opportunity to work remotely as a
             content creator for Neputer Tech Pvt Ltd, a Nepali company. In this
             role, I was responsible for writing content on assigned topics. This
             first professional experience taught me valuable lessons in
             professionalism, teamwork, and navigating a hybrid work environment.
           </div>
-          <hr className="border-t-2 w-full" />
+          <hr className="bg-gray-800" />
         </li>
       </ul>
     </div>
