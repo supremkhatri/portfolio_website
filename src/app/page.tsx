@@ -11,8 +11,9 @@ import { Merriweather } from "next/font/google";
 
 export default function Home() {
   return (
-    <main className={playfair.className}>
-      <Navbar className="border border-white" />
+    
+    <main className={merri.className}>
+      <Navbar className="border border-white " />
       <HeroSection_1 />
       <HeroSection_2 />
       <Skills />
@@ -21,10 +22,11 @@ export default function Home() {
       <Timeline />
       <Footer />
     </main>
+  
   );
 }
 
-const playfair = Merriweather({
+const merri = Merriweather({
   subsets: ["latin"],
   weight: ["400", "700"],
 });

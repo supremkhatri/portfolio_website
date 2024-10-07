@@ -2,19 +2,19 @@ export default function Experience() {
   return (
     <div
       id="experience-section"
-      className="flex hover:bg-red-950/[0.2] transition ease-in-out flex-col items-center"
+      className=" flex bg-black hover:bg-customRed transition ease-in-out flex-col items-center"
     >
-      <h2 className="text-5xl sm:text-7xl font-extrabold mt-10">
+      <h2 className="text-5xl text-white sm:text-7xl font-extrabold mt-10">
         Work Experience
       </h2>
-      <ul className="timeline mt-16 timeline-snap-icon max-md:timeline-compact timeline-vertical">
+      <ul className="timeline mt-16 text-white timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
-          <div className="timeline-middle">
+          <div className="timeline-middle text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="h-5 w-5"
+              className="h-5 w-5 stroke-white"
             >
               <path
                 fillRule="evenodd"

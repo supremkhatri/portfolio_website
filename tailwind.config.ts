@@ -28,6 +28,8 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customRed: '#130000',
+        customGray: '#0B1019',
       },
     },
   },

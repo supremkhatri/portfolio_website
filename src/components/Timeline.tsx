@@ -20,7 +20,7 @@ const data = [
               <img src="images/education/thapathali-campus.jpg" />
             </div>
           </div>
-          <h2 className="text-3xl font-bold">Thapathali Campus</h2>
+          <h2 className="text-3xl text-white font-bold">Thapathali Campus</h2>
         </div>
         <p className=" dark:text-neutral-200 sm:text-lg text-sm font-normal mb-8 mx-6">
           I&apos;m currently studying Bachelors in Computer Engineering at
@@ -43,7 +43,7 @@ const data = [
               <img src="images/education/sainik-awasiya-college.png" />
             </div>
           </div>
-          <h2 className="text-3xl font-bold">Sainik Awasiya Mahavidyalaya</h2>
+          <h2 className="text-3xl text-white font-bold">Sainik Awasiya Mahavidyalaya</h2>
         </div>
         <p className=" dark:text-neutral-200 sm:text-lg text-sm font-normal mb-8 mx-6">
           I completed my +2 in Science from Sainik Awasiya Mahavidyalaya, where
@@ -65,7 +65,7 @@ const data = [
               <img src="images/education/noble-school.jpg" />
             </div>
           </div>
-          <h2 className="text-3xl font-bold">Noble School</h2>
+          <h2 className="text-3xl font-bold text-white">Noble School</h2>
         </div>
         <p className="dark:text-neutral-200 sm:text-lg text-sm font-normal mb-8 mx-6">
           I completed my primary education at Noble School, located near my

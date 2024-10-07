@@ -13,17 +13,16 @@ export default function Navbar({}: { className?: string }) {
         </div>
         <Link
           href={"/"}
-          className=" dark:hover:text-gray-500 text-sm lg:text-xl font-bold tracking-wide"
+          className=" dark:hover:text-gray-500 text-white text-sm lg:text-xl font-bold tracking-wide"
         >
           {" "}
           Suprem Khatri
         </Link>
       </div>
 
-      {/* Dropdown for mobile view */}
       <div className="navbar-end lg:hidden">
         {" "}
-        {/* Hide dropdown on large screens */}
+      
         <div className="dropdown dropdown-end">
           <div
             tabIndex={0}
@@ -34,7 +33,7 @@ export default function Navbar({}: { className?: string }) {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              className="inline-block h-5 w-5 stroke-current"
+              className="inline-block h-5 w-5 stroke-white"
             >
               <path
                 strokeLinecap="round"
