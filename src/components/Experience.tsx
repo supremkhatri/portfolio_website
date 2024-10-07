@@ -14,7 +14,7 @@ export default function Experience() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="h-5 w-5 stroke-white"
+              className="h-5 w-5 "
             >
               <path
                 fillRule="evenodd"
@@ -37,10 +37,10 @@ export default function Experience() {
             leadership, network building, resource management, and teamwork,
             while also developing a wide range of technical competencies.
           </div>
-          <hr className="border-t-2 border-white w-full" />
+          <hr className="border-t-2 w-full" />
         </li>
         <li className="mt-10">
-          <hr className="border-t-2 border-white w-full" />
+          <hr className="border-t-2 w-full" />
           <div className="timeline-middle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -68,11 +68,11 @@ export default function Experience() {
             posting content to promote events and played an active role in
             creating reels and other materials during &apos;Yathartha&apos; too.
           </div>
-          <hr className="border-t-2 border-white w-full" />
+          <hr className="border-t-2 w-full" />
         </li>
         <li className="mt-10">
-          <hr className="border-t-2 border-white w-full" />
-          <div className="timeline-middle">
+          <hr className="border-t-2  w-full" />
+          <div className="timeline-middle text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -95,7 +95,7 @@ export default function Experience() {
             first professional experience taught me valuable lessons in
             professionalism, teamwork, and navigating a hybrid work environment.
           </div>
-          <hr className="border-t-2 border-white w-full" />
+          <hr className="border-t-2 w-full" />
         </li>
       </ul>
     </div>

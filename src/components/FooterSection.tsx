@@ -27,7 +27,7 @@ export default function footer () {
       />
     </div>
   <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by Suprem Khatri</p>
+    <p className="dark:text-neutral-400">Copyright © {new Date().getFullYear()} - All right reserved by Suprem Khatri</p>
   </aside>
 </footer>
 )
