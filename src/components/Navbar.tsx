@@ -22,7 +22,6 @@ export default function Navbar({}: { className?: string }) {
 
       <div className="navbar-end lg:hidden">
         {" "}
-      
         <div className="dropdown dropdown-end">
           <div
             tabIndex={0}
@@ -51,19 +50,30 @@ export default function Navbar({}: { className?: string }) {
               <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <Link href={"#skill-section"}>Skills</Link>
+              <Link href={"#skill-section"} scroll={true}>
+                Skills
+              </Link>
             </li>
             <li>
-              <Link href={"#project-section"}>Projects</Link>
+              <Link href={"#project-section"} scroll={true}>
+                Projects
+              </Link>
             </li>
             <li>
-              <Link href={"#experience-section"}>Experience</Link>
+              <Link href={"#experience-section"} scroll={true}>
+                Experience
+              </Link>
             </li>
             <li>
-              <Link href={"#education-section"}>Education</Link>
+              <Link href={"#education-section"} scroll={true}>
+                Education
+              </Link>
             </li>
             <li>
-              <Link href={"#contact-section"}> Contact </Link>
+              <Link href={"#contact-section"} scroll={true}>
+                {" "}
+                Contact{" "}
+              </Link>
             </li>
           </ul>
         </div>
@@ -77,20 +87,31 @@ export default function Navbar({}: { className?: string }) {
             <Link href={"/"}>Home</Link>
           </li>
           <li>
-            <Link href={"#skill-section"}>Skills</Link>
+            <Link href={"#skill-section"} scroll={true}>
+              Skills
+            </Link>
           </li>
           <li>
-            <Link href={"#project-section"}>Projects</Link>
+            <Link href={"#project-section"} scroll={true}>
+              Projects
+            </Link>
           </li>
           <li>
-            <Link href={"#experience-section"}>Experience</Link>
+            <Link href={"#experience-section"} scroll={true}>
+              Experience
+            </Link>
           </li>
           <li>
-            <Link href={"#education-section"}>Education</Link>
+            <Link href={"#education-section"} scroll={true}>
+              Education
+            </Link>
           </li>
           <li>
-              <Link href={"#contact-section"}> Contact </Link>
-            </li>
+            <Link href={"#contact-section"} scroll={true}>
+              {" "}
+              Contact{" "}
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
