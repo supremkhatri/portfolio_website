@@ -17,31 +17,31 @@ export default function CardHoverEffect() {
 
 export const projects = [
   {
+    title: "ECAST Website",
+    description:
+      "This is a college club webiste that I worked on with the college memebers using React.Js",
+    link: "https://ecast.tcioe.edu.np/",
+    imageUrl: "/images/project/ecast.jpg",
+  },
+  {
     title: "Dictionary App",
     description:
       "This project leverages JavaScript, basic HTML, and Tailwind CSS to create a dynamic dictionary app. The application enables users to search for word definitions by utilizing a free dictionary API, providing a seamless and efficient word lookup experience.",
     link: "https://supremkhatri.github.io/dictionary/",
     imageUrl: "/images/project/dictionary.png",
   },
-  {
-    title: "Weather App",
-    description:
-      "This app is developed using JavaScript, HTML, and pure CSS to deliver real-time weather updates. By integrating a free weather API, the application provides users with current weather conditions, forecasts, and other relevant details for any location.",
-    link: "https://supremkhatri.github.io/weatherdetails/",
-    imageUrl: "/images/project/weather_app_icon_.jpg",
-  },
-  {
-    title: "Scissor-Paper-Rock",
-    description:
-      "This game is developed using JavaScript, HTML, and pure CSS to bring the classic scissor-paper-rock game to life. Users can challenge a bot in this interactive app, with the game automatically determining the winner after each round.",
-    link: "https://supremkhatri.github.io/scissorpaperrock/",
-    imageUrl: "/images/project/rock-paper-scissor.jpg",
-  },
-  {
-    title: "To do App",
-    description:
-      "This project is built using JavaScript, along with basic HTML and pure CSS. The application allows users to store, delete, and edit their to-do items.",
-    link: "https://supremkhatri.github.io/todotracker/",
-    imageUrl: "/images/project/todo-icon.png",
-  },
+  // {
+  //   title: "Weather App",
+  //   description:
+  //     "This app is developed using JavaScript, HTML, and pure CSS to deliver real-time weather updates. By integrating a free weather API, the application provides users with current weather conditions, forecasts, and other relevant details for any location.",
+  //   link: "https://supremkhatri.github.io/weatherdetails/",
+  //   imageUrl: "/images/project/weather_app_icon_.jpg",
+  // },
+  // {
+  //   title: "Scissor-Paper-Rock",
+  //   description:
+  //     "This game is developed using JavaScript, HTML, and pure CSS to bring the classic scissor-paper-rock game to life. Users can challenge a bot in this interactive app, with the game automatically determining the winner after each round.",
+  //   link: "https://supremkhatri.github.io/scissorpaperrock/",
+  //   imageUrl: "/images/project/rock-paper-scissor.jpg",
+  // },
 ];
