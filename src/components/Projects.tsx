@@ -9,18 +9,18 @@ export const projects = [
     imageUrl: "/images/project/ecast.jpg",
   },
   {
-    title: "Dictionary App",
-    description:
-      "This project leverages JavaScript, basic HTML, and Tailwind CSS to create a dynamic dictionary app. The application enables users to search for word definitions by utilizing a free dictionary API, providing a seamless and efficient word lookup experience.",
-    link: "https://supremkhatri.github.io/dictionary/",
-    imageUrl: "/images/project/dictionary.png",
-  },
-  {
     title: "Event Management Solution",
     description:
       "This project is built on Next.js | TypeScript | Tailwind CSS | DaisyUI | Accenterity UI. It is a event management web app that showcases ongoing and past events with details like presenters, stats, sponsors, and more",
       link: "https://event-management-frontend-nine-topaz.vercel.app/",
       imageUrl: "/images/project/event_management.jpeg",
+  },
+  {
+    title: "Dictionary App",
+    description:
+      "This project leverages JavaScript, basic HTML, and Tailwind CSS to create a dynamic dictionary app. The application enables users to search for word definitions by utilizing a free dictionary API, providing a seamless and efficient word lookup experience.",
+    link: "https://supremkhatri.github.io/dictionary/",
+    imageUrl: "/images/project/dictionary.png",
   },
 ];
 
