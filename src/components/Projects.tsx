@@ -1,20 +1,5 @@
 "use client";
 import { HoverEffect } from "./ui/card-hover-effect";
-
-export default function CardHoverEffect() {
-  return (
-    <div
-      id="project-section"
-      className="flex bg-customGray flex-col items-center justify-center min-h-screen text-white"
-    >
-      <h2 className="text-7xl text-white font-extrabold my-8">Projects</h2>
-      <div className="flex flex-row items-center justify-center max-w-5xl mx-auto px-8">
-        <HoverEffect items={projects} />
-      </div>
-    </div>
-  );
-}
-
 export const projects = [
   {
     title: "ECAST Website",
@@ -30,18 +15,26 @@ export const projects = [
     link: "https://supremkhatri.github.io/dictionary/",
     imageUrl: "/images/project/dictionary.png",
   },
-  // {
-  //   title: "Weather App",
-  //   description:
-  //     "This app is developed using JavaScript, HTML, and pure CSS to deliver real-time weather updates. By integrating a free weather API, the application provides users with current weather conditions, forecasts, and other relevant details for any location.",
-  //   link: "https://supremkhatri.github.io/weatherdetails/",
-  //   imageUrl: "/images/project/weather_app_icon_.jpg",
-  // },
-  // {
-  //   title: "Scissor-Paper-Rock",
-  //   description:
-  //     "This game is developed using JavaScript, HTML, and pure CSS to bring the classic scissor-paper-rock game to life. Users can challenge a bot in this interactive app, with the game automatically determining the winner after each round.",
-  //   link: "https://supremkhatri.github.io/scissorpaperrock/",
-  //   imageUrl: "/images/project/rock-paper-scissor.jpg",
-  // },
+  {
+    title: "Event Management Solution",
+    description:
+      "This project is built on Next.js | TypeScript | Tailwind CSS | DaisyUI | Accenterity UI. It is a event management web app that showcases ongoing and past events with details like presenters, stats, sponsors, and more",
+      link: "https://event-management-frontend-nine-topaz.vercel.app/",
+      imageUrl: "/images/project/event_management.jpeg",
+  },
 ];
+
+export default function CardHoverEffect() {
+  return (
+    <div
+      id="project-section"
+      className="flex bg-customGray flex-col items-center justify-center min-h-screen text-white"
+    >
+      <h2 className="text-7xl text-white font-extrabold my-8">Projects</h2>
+      <div className="flex flex-row items-center justify-center max-w-5xl mx-auto px-8">
+        <HoverEffect items={projects} />
+      </div>
+    </div>
+  );
+}
+
